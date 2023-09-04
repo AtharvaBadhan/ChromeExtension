@@ -1,0 +1,22 @@
+/* popup.css */
+/* Add your Tailwind CSS classes and custom styles here */
+.popup {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: #3490dc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-loading {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  
